@@ -11,6 +11,7 @@ to see this for yourself.
 
 | theorem | file | statement |
 | --- | --- | --- |
+| `Ingham.ingham_threshold` (with `ingham_uniqueness`, `ingham_existence`) | `Ingham/` | **Ingham's theorem at the quasianalytic threshold.** Let `ω_β(t) = t / log(e + t)^β` with `β > 0`. A nonzero continuous compactly supported `f : ℝ → ℂ` with `‖𝓕 f ξ‖ ≤ C e^{-τ ω_β(\|ξ\|)}` for some `τ > 0` exists if and only if `β > 1`. The uniqueness half holds for any continuous integrable `f` vanishing on an open interval. |
 | `DenjoyCarleman.uniqueness` | `DenjoyCarleman/Uniqueness.lean` | **Denjoy–Carleman uniqueness.** Let `M` be positive and log-convex with `Σ M n / M (n+1) = ∞`. If `f` is smooth near `[a, b]`, satisfies `\|f⁽ⁿ⁾\| ≤ M n` on `[a, b]`, and all its derivatives vanish at one point of `[a, b]`, then `f = 0` on `[a, b]`. |
 | `DenjoyCarleman.identity_theorem` | `DenjoyCarleman/Identity.lean` | **Identity theorem in several variables.** In a finite-dimensional real normed space, let `U` be open and connected and let `F` be in the class `‖DⁿF‖ ≤ C Aⁿ M n` on compact subsets of `U`, with `M` as above. If `F` vanishes on a nonempty open subset of `U`, it vanishes on `U`. |
 | `DenjoyCarleman.exists_bump_of_summable` | `DenjoyCarleman/Converse.lean` | **Denjoy–Carleman converse.** If `M` is positive and log-convex with `Σ M n / M (n+1) < ∞`, there is a nonzero, smooth, compactly supported `f` with `\|f⁽ⁿ⁾\| ≤ C Aⁿ M n` (Hörmander's construction by iterated moving averages). |
@@ -34,6 +35,8 @@ and `b ≡ 1` for the edge factorisation.
   F. Nazarov, M. Sodin and A. Volberg, *Lower bounds for quasianalytic functions I*
   (arXiv:math/0208233), §2. It is recast in a discrete-chain form that avoids Bang's continuity and
   supremum arguments.
+- **Ingham.** A. E. Ingham, *A note on Fourier transforms*, J. London Math. Soc. 9 (1934); the formal proof
+  goes through the Denjoy–Carleman theorem in both directions rather than Ingham's original argument.
 - **Converse.** L. Hörmander, *The Analysis of Linear Partial Differential Operators I*, Thm 1.3.5.
 - **Edge factorisation.** A Gevrey version of a Laplace-type factorisation lemma used in recent work
   on forced Navier–Stokes blow-up.

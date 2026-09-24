@@ -8,3 +8,6 @@ import QuasianalyticLean
 #print axioms DenjoyCarleman.weightSeq_logConvex
 #print axioms DenjoyCarleman.weightSeq_quasianalytic
 #print axioms DenjoyCarleman.weightSeq_not_quasianalytic
+#print axioms Ingham.ingham_uniqueness
+#print axioms Ingham.ingham_existence
+#print axioms Ingham.ingham_threshold
