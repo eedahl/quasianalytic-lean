@@ -4,3 +4,7 @@ import QuasianalyticLean
 #print axioms GevreyEdge.theoremD
 #print axioms DenjoyCarleman.uniqueness
 #print axioms DenjoyCarleman.identity_theorem
+#print axioms DenjoyCarleman.exists_bump_of_summable
+#print axioms DenjoyCarleman.weightSeq_logConvex
+#print axioms DenjoyCarleman.weightSeq_quasianalytic
+#print axioms DenjoyCarleman.weightSeq_not_quasianalytic
