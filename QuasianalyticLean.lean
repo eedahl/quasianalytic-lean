@@ -9,3 +9,4 @@ import QuasianalyticLean.DenjoyCarleman.NonVacuous
 import QuasianalyticLean.DenjoyCarleman.Converse
 import QuasianalyticLean.DenjoyCarleman.WeightSeq
 import QuasianalyticLean.Ingham.Threshold
+import QuasianalyticLean.DenjoyCarleman.OmegaSubadd
