@@ -10,3 +10,5 @@ import QuasianalyticLean.DenjoyCarleman.Converse
 import QuasianalyticLean.DenjoyCarleman.WeightSeq
 import QuasianalyticLean.Ingham.Threshold
 import QuasianalyticLean.DenjoyCarleman.OmegaSubadd
+import QuasianalyticLean.FlatSwitch.Switch
+import QuasianalyticLean.FlatSwitch.Flat

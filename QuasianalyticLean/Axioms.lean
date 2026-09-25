@@ -13,3 +13,7 @@ import QuasianalyticLean
 #print axioms Ingham.ingham_threshold
 #print axioms DenjoyCarleman.omegaB_concaveOn
 #print axioms DenjoyCarleman.omegaB_norm_subadd
+#print axioms FlatSwitch.switch_in_omega_class
+#print axioms FlatSwitch.flat_small
+#print axioms FlatSwitch.no_gevrey_switch
+#print axioms FlatSwitch.no_slow_double_switch
